@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    >
+    <title>/X-Men</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&family=Poppins:wght@100;300;500&display=swap" 
+        rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css"/>
+    <link rel="stylesheet" href="./src/css/estilos.css"/>
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="Logo" src="./src/imagens/logo.svg" alt=" logo x-men">
+    </header>
+
+    <main class="selecao-de-personagem">
+        <section class="personagens"> 
+           <h1 class="titulo"> Selecione um personagem </h1>
+
+           <ul class="lista-de-personagem">
+              <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description = "Ele tem o poder de disparar rajadas ópticas devido ao acidente que ocorreu com ele, quando ainda era uma criança, apesar deste poder imenso, porém Scott Summers, se nomeando de Ciclope, não consegue controlar os poderes concebidos a si.">
+                 <img src="./src/imagens/card-ciclope.jpg" alt="Personagem Ciclope">
+              </li>
+              
+              <li class="personagem" id="jean-grey" data-name = "Jean Grey" data-description="Jean Elaine Grey é uma das filhas do professor de história do Colégio de Poetas, John Grey, e sua esposa, Elaine Grey. Quando nascida, ela teve sua alma esculpida desde o princípio para se tornar futuramente um avatar perfeito para entidade cósmica, Força Fênix."> 
+                <img src="./src/imagens/card-jean-grey.jpg" alt="Personagem Jean Grey">
+              </li>
+       
+              <li class="personagem" id="lince-negra" data-name="Lince Negra" data-description =" Uma mutante, Pryde possui uma habilidade faseada que lhe permite, assim como objetos ou pessoas com quem ela está em contato, tornar-se intangível Esse poder também perturba qualquer campo elétrico que ela passa, e permite que ela possa andar no ar.">
+                <img src="./src/imagens/card-lince-negra.jpg" alt="Personagem Lince Negra">
+              </li>
+
+              <li class="personagem" id="magneto" data-name="Magneto" data-description ="Magneto possui o poder de manipular qualquer tipo de metal, inclusive Vibranium e Adamantium. Ele tem o controle do magnetismo, do metal, e vários campos magnéticos, com isso ele cria campos de força eletromagnéticos, pode literalmente desligar a gravidade em volta de si isso lhe permite voar a distâncias e velocidades razoáveis.">
+                <img src="./src/imagens/card-magneto.jpg" alt="Personagem Magneto">
+              </li>
+
+              <li class="personagem" id="noturno" data-name="Noturno" data-description ="Seus poderes mutantes incluem teletransporte, super agilidade, aderência física, visão noturna, habilidades acrobáticas e a habilidade de fundir-se com as sombras. Noturno é um mutante com a habilidade para teleportar a si mesmo, roupas usadas e uma certa quantia de massa adicional com qual entra em contato. Kurt teleporta deslocando-se através de uma dimensão (a dimensão do enxofre).">
+                <img src="./src/imagens/card-noturno.jpg" alt="Personagem Noturno">
+              </li>
+
+              <li class="personagem" id="tempestade" data-name="Tempestade" data-description =" Foi encontrada pelo Professor Xavier e uniu-se aos X-men que a transformaram em uma grande lutadora, tanto armada quanto desarmada. Além de saber grandes técnicas, que já fizeram ela ganhar lutas com “vilões” muito maiores, também consegue dominar uma série de elementos, assim como: Temperatura, umidade (a nível molecular), raios eletromagnéticos, pressão atmosférica, furacões, tempestades, nevadas, tempestades cósmicas, ventos solares, correntes oceânicas, campo eletromagnéticos.">
+                <img src="./src/imagens/card-tempestade.jpg" alt="Personagem Tempestade">
+              </li>
+
+              <li class="personagem" id="vampira" data-name="Vampira" data-description ="        Através do contato físico, Vampira absorve a energia vital, as memórias, pensamentos, habilidades físicas, mentais, normais ou especiais que a vítima possui, além dos seus super-poderes, sejam mutantes ou não. Normalmente, isso ocasiona perda de consciência, porque absorve a energia vital. Contatos prolongados podem levar à morte.">
+                <img src="./src/imagens/card-vampira.jpg" alt="Personagem Vampira">
+              </li>  
+
+              <li class="personagem" id="wolverine" data-name="Wolverine" data-description ="        Seu principal poder mutante é um processo de cicatrização acelerada, tipicamente referido como seu fator de cura mutante, que regenera os tecidos danificados ou destruídos de seu corpo muito além das capacidades de um humano comum. Além da cura acelerada de traumas físicos, o fator de cura de Wolverine o torna extraordinariamente resistente a doenças, drogas e toxinas.">
+                <img src="./src/imagens/card-wolverine.jpg" alt="Personagem Wolverine">
+              </li>  
+           </ul>              
+        </section>
+
+        <section class="personagem-selecionado"> 
+            <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="Personagem Selecionado"/>
+          
+          
+            <div class="informacoes-personagem">
+              <h2 class="nome-personagem" id="nome-personagem"> Ciclope </h2>
+              <p class="descricao-personagem" id="descricao-personagem">
+                Ele tem o poder de disparar rajadas ópticas por um acidente que
+                aconteceu com ele quando criança, mas não consegue controlá-los.
+              </p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/JS/index.js"></script>
+</body>
+</html>
